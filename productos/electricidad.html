@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Electricidad | Servicios del hogar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        .active{
+            background: #aaa!important;
+        }
+    </style>
+</head>
+<body>
+    <div class="row fixed-top mb-5">
+        <nav class="navbar navbar-expand-md navbar-light bg-white py-3 px-5">
+            <a class="navbar-brand " href="#">
+              <img src="https://static.vecteezy.com/system/resources/previews/008/514/000/non_2x/hand-holding-wrench-tool-illustration-png.png" alt="icono pagina" height="35px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse  justify-content-md-end " id="navbarNavDropdown">
+                <ul class="navbar-nav text-center ">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../index.html" >
+                        Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../servicios/fontaneria.html" >
+                        Servicios</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link link-activado" href="./productos.html" >
+                        Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../contacto.html" >
+                          Contacto</a>
+                      </li>
+                </ul>
+            </div>
+        </nav>
+      </div>  
+
+<div class="container-fluid">
+    <main class="row">
+        <aside class="col-auto col-md-3.5 col-lg-2.5 min-vh-100 d-flex flex-column justify-content-between" style="border-right: 1px solid #d5d5d5;">
+            <div class="sticky-top min-vh-100 py-5">
+                <a class="d-flex text-decoration-none mt-1 align-items-center text-dark">
+                    <span class="fs-4 py-5 d-none d-sm-inline">Productos</span>
+                </a>
+                <ul class="nav nav-pills flex-column align-items-center mt-4">
+                    <li class="nav-item py-2 py-sm-0" style="margin: 50px 0;">
+                        <a href="./productos.html" class="nav-link text-dark">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-hammer" viewBox="0 0 16 16">
+                                <path d="M9.972 2.508a.5.5 0 0 0-.16-.556l-.178-.129a5.009 5.009 0 0 0-2.076-.783C6.215.862 4.504 1.229 2.84 3.133H1.786a.5.5 0 0 0-.354.147L.146 4.567a.5.5 0 0 0 0 .706l2.571 2.579a.5.5 0 0 0 .708 0l1.286-1.29a.5.5 0 0 0 .146-.353V5.57l8.387 8.873A.5.5 0 0 0 14 14.5l1.5-1.5a.5.5 0 0 0 .017-.689l-9.129-8.63c.747-.456 1.772-.839 3.112-.839a.5.5 0 0 0 .472-.334z"/>
+                            </svg><span class="fs-5 ms-3 d-none d-sm-inline">Carpinteria</span>
+                        </a>
+                    </li>
+                    <li class="nav-item  py-sm-0" style="margin: 50px 0;">
+                        <a href="./fontaneria.html " class="nav-link text-dark">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-wrench-adjustable" viewBox="0 0 16 16">
+                                <path d="M16 4.5a4.492 4.492 0 0 1-1.703 3.526L13 5l2.959-1.11c.027.2.041.403.041.61Z"/>
+                                <path d="M11.5 9c.653 0 1.273-.139 1.833-.39L12 5.5 11 3l3.826-1.53A4.5 4.5 0 0 0 7.29 6.092l-6.116 5.096a2.583 2.583 0 1 0 3.638 3.638L9.908 8.71A4.49 4.49 0 0 0 11.5 9Zm-1.292-4.361-.596.893.809-.27a.25.25 0 0 1 .287.377l-.596.893.809-.27.158.475-1.5.5a.25.25 0 0 1-.287-.376l.596-.893-.809.27a.25.25 0 0 1-.287-.377l.596-.893-.809.27-.158-.475 1.5-.5a.25.25 0 0 1 .287.376ZM3 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"/>
+                            </svg><span class="fs-5 ms-3 d-none d-sm-inline">Fontaneria</span>
+                        </a>
+                    </li>
+                    <li class="nav-item py-2 py-sm-0" style="margin: 50px 0;">
+                        <a href="./electricidad.html" class="nav-link text-dark active">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-lightning-fill" viewBox="0 0 16 16">
+                                <path d="M5.52.359A.5.5 0 0 1 6 0h4a.5.5 0 0 1 .474.658L8.694 6H12.5a.5.5 0 0 1 .395.807l-7 9a.5.5 0 0 1-.873-.454L6.823 9.5H3.5a.5.5 0 0 1-.48-.641l2.5-8.5z"/>
+                            </svg><span class="fs-5 ms-3 d-none d-sm-inline">Electricidad</span>
+                        </a>
+                    </li>
+                   
+                </ul>
+            </div>
+        </aside>
+        <section class="col  col-md-8.5 col-lg-9.5 my-5">
+            <article class="my-5">
+                <figure class="text-center">
+                    <blockquote class="blockquote">
+                        <p  class="fs-1">PRODUCTOS DE ELECTRICIDAD.</p>
+                    </blockquote>
+                <figcaption class="blockquote-footer">
+                    Variedad premium al mejor precio
+                </figcaption>
+                </figure>
+            </article>
+            <article class="my-5">
+                <div class="cards-container col-12 ">
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="https://www.loencuentras.com.co/1161/alicate-de-electricista-ligeros-7pulg.jpg" class="card-img-top" alt="alicate" title="alicate">
+                                <div class="card-body d-flex flex-column justify-content-end">
+                                    <h5 class="card-title">Alicate NCV</h5>
+                                    <p class="card-text">Alicate marca inno. Revestido con gorilla silicon que no conduce electricidad .</p>
+                                    <button type="button" class="btn btn-success">Comprar</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="https://www.eimpsa.com/web/wp-content/uploads/2023/03/LE000090056-CINTA-SCOTCH-23-LE000090056-18mmX9.1m-NEGRO-3M.jpg" class="card-img-top h-64" alt="cinta aislante">
+                                <div class="card-body d-flex flex-column justify-content-end">
+                                    <h5 class="card-title">cinta Aislante</h5>
+                                    <p class="card-text">Cinta marca Scotch. Material fibra de carbono con cinta termotex.</p>
+                                    <button type="button" class="btn btn-success">Comprar</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="https://http2.mlstatic.com/D_NQ_NP_974933-MLM53090834454_122022-O.webp" class="card-img-top" alt="...">
+                                <div class="card-body d-flex flex-column justify-content-end">
+                                    <h5 class="card-title">Guia Jalacables</h5>
+                                    <p class="card-text">Guia jalacables marca Klein Tools 56382. Material fibra de vidrio 15m</p>
+                                    <button type="button" class="btn btn-success">Comprar</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="https://http2.mlstatic.com/D_NQ_NP_624527-MLM53126671423_012023-O.webp" class="card-img-top" alt="...">
+                                <div class="card-body d-flex flex-column justify-content-end">
+                                    <h5 class="card-title">Guantes De Seguridad</h5>
+                                    <p class="card-text">Llave marca Klein Tools 40072. protege las manos de los riesgos eléctricos y ofrecen un agarre seguro en cualquier situación. </p>
+                                    <button type="button" class="btn btn-success">Comprar</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="https://como-funciona.co/wp-content/uploads/2018/09/Como-funciona-un-Buscapolo.jpg" class="card-img-top" alt="...">
+                                <div class="card-body d-flex flex-column justify-content-end">
+                                    <h5 class="card-title">Destornillador Busca Polo</h5>
+                                    <p class="card-text">Están formados por tres componentes basicos: Un fusible de protección de 30mA. Una resistencia limitadora de 1M ohmio de la más alta calidad.</p>
+                                    <button type="button" class="btn btn-success">Comprar</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="https://www.mndelgolfo.com/blog/wp-content/uploads/2017/09/pinzas-planas.jpg" class="card-img-top" alt="...">
+                                <div class="card-body d-flex flex-column justify-content-end">
+                                    <h5 class="card-title"> Pinzas Planas</h5>
+                                    <p class="card-text">Tienen un pico cuadrado con marcas en su interior y agarraderas ligeramente encorvadas.</p>
+                                    <button type="button" class="btn btn-success">Comprar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+    <!-- FOOTER  --> 
+    <div class="row">
+    <div class="col">
+        <footer class="page-footer shadow">
+            <div class="d-flex flex-column mx-auto py-5" style="width: 80%">
+            <div class="d-flex flex-wrap justify-content-between">
+                <div>
+                <a href="/" class="d-flex align-items-center p-0 text-dark">
+                    <img alt="logo" src="../img/logo.png" width="30px" />
+                    <span class="ms-3 h5 font-weight-bold">Servicios del hogar.</span>
+                </a>
+                <p class="my-3" style="width: 250px">
+                    Somos la mejor solución para problemas en casa, contamos
+                    con profesionales en todo el mundo dispuestos ayudarte.
+                </p>
+                <span class="mt-4">
+                    <button class="btn btn-dark btn-flat p-2">
+                    <i class="fa fa-facebook"></i>
+                    </button>
+                    <button class="btn btn-dark btn-flat p-2">
+                    <i class="fa fa-twitter"></i>
+                    </button>
+                    <button class="btn btn-dark btn-flat p-2">
+                    <i class="fa fa-instagram"></i>
+                    </button>
+                </span>
+                </div>
+                <div>
+                <p class="h5 mb-4" style="font-weight: 600">Categorias.</p>
+                <ul class="p-0" style="list-style: none; cursor: pointer">
+                    <li class="my-2">
+                    <a class="text-dark" href="/">Inicio</a>
+                    </li>
+                    <li class="my-2">
+                    <a class="text-dark" href="/">Servicio</a>
+                    </li>
+                    <li class="my-2">
+                    <a class="text-dark" href="/">Producto</a>
+                    </li>
+                    <li class="my-2">
+                    <a class="text-dark" href="/">Sobre nosotros.</a>
+                    </li>
+                </ul>
+                </div>
+                <div>
+                <p class="h5 mb-4" style="font-weight: 600">Contacto.</p>
+                <ul class="p-0" style="list-style: none; cursor: pointer">
+                    <li class="my-2">
+                    <a class="text-dark" href="/">3202502875</a>
+                    </li>
+                    <li class="my-2">
+                    <a class="text-dark" href="/">Facebook</a>
+                    </li>
+                    <li class="my-2">
+                    <a class="text-dark" href="/">Whatsapp.</a>
+                    </li>
+                </ul>
+                </div>
+                
+            </div>
+            <small class="text-center mt-5">&copy; Servicios del hogar, 2023. All rights reserved.</small>
+            </div>
+        </footer>
+    </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+.navbar{
+    box-shadow: 1px 0 5px  rgb(189, 189, 189) !important;
+}
+
+#carouselExampleCaptions{
+    margin-top: 50px;
+}
+#destacados{
+ background-color: aliceblue;
+}
+
+#categorias{
+    background-color: rgba(214, 252, 244, 0.295);
+}
+.carousel-item{
+    max-height: 600px;
+}
+.carousel-item > img{
+    background-color: blue;
+    width: 100%;
+    min-height: 180px;
+}
+.link-activado{
+    color: black !important;
+    text-decoration: overline !important;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.bg-formulario{
+    background-color: rgb(243, 249, 255);
+}
